@@ -39,3 +39,4 @@ webapp
 - add unit tests
 - run tests on build
 - add lazy loading
+- auto update
