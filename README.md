@@ -7,22 +7,12 @@ Client Installation
 1. Install nodeJS 
 
 2. Install required nodejs modules via npm:
+
 ```
 npm install
 ```
+
 3. Run `grunt` to build JS and CSS files and run tests
-
-
-
-
-
-If you are experiencing npm ERR! Error: UNKNOWN, symlink '../path/to/' use:
-
-npm install --no-bin-links
-
-# --no-bin-links tells npm to not create any symbolic links
-
-
 
 
 ### Watching for changes
