@@ -28,12 +28,15 @@ grunt watch
 
 ### Project structure
 
-webapp
-    modules
-        sbcookies.src           - source directory for cookie module
-        sbflickr.src            - source directory for flickr module
-        main.js                 - concatenated modules
-        main.min.js             - concatenated and minified modules
-    style
-        main.css                - main css stylesheet
-        main.min.css            - main minified css stylesheet
+webapp  
+    modules  
+        sbcookies.src           - source directory for cookie module  
+        sbflickr.src            - source directory for flickr module  
+    style  
+        main.css                - main css stylesheet  
+
+### TODO
+- add unit tests
+- run tests on build
+- add lazy loading
+- auto update
