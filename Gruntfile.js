@@ -53,7 +53,7 @@ module.exports = function(grunt) {
                             'Created Date: <%= grunt.template.today("yyyy-mm-dd") %>' +
                             '\n */ \n'
                 },
-                src: ['webapp/modules/**/*.js', '!webapp/modules/main.js', '!webapp/modules/*.min.js'],
+                src: ['webapp/modules/sbstorage.src/*.js','webapp/modules/sbflickr.src/*.js', '!webapp/modules/main.js', '!webapp/modules/*.min.js'],
                     // the resulting JS file
                 dest: 'webapp/modules/main.js' 
             }
