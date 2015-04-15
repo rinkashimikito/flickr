@@ -1,6 +1,8 @@
 Flickr list
 ============
 
+Responsive page showing public photos from flickr tagged as 'London' with option to select and save in localStorage.
+
 Client Installation
 --------------------
 

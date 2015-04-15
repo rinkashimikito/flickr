@@ -1,6 +1,7 @@
 {
   "name": "sainsburys",
   "description": "Sainsbury's flickr test",
+  "repository" : "https://github.com/rinkashimikito/flickr",
   "version": "0.0.1",
   "author": "Marcin Kononiuk",
   "readmeFilename": "README.md",
