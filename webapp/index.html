@@ -10,6 +10,7 @@
                 var script = document.createElement('script');
 
                 script.src = 'http://api.flickr.com/services/feeds/photos_public.gne?format=json&jsoncallback=flickr.cb&tags=' + tags;
+                // src for error response from flickr
                 // script.src = 'https://www.flickr.com/services/rest/?method=flickr.blogs.getList&jsoncallback=flickr.cb&format=json&api_key=e8c3d1cf63c336553f6b28bdc41a7fd4'
 
                 document.head.appendChild(script);

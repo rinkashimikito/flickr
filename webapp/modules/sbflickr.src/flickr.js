@@ -20,7 +20,7 @@ var flickr = (function() {
 
             if (this.response.stat && this.response.stat == 'fail') {
                 this.createErrorMessage(this.response, document.getElementById(this.gridName));
-            } else {
+            } else if (data.items) {
                 var i = 0,
                     amountOfPhotos = data.items.length,
                     itemsList = document.getElementById(this.gridName),
