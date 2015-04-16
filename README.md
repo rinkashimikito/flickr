@@ -30,7 +30,7 @@ grunt watch
 
 webapp  
     modules  
-        sbcookies.src           - source directory for cookie module  
+        sbstorage.src           - source directory for cookie module  
         sbflickr.src            - source directory for flickr module  
     style  
         main.css                - main css stylesheet  
